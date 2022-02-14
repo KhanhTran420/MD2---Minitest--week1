@@ -21,9 +21,9 @@ public class main {
         double totalWeight = getSumWeight(listBook);
         System.out.println("Tổng trọng lượng của sách (đơn vị kg): " + totalWeight);
 
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Book Name: ");
-        String bookName = sc.nextLine();
+        String bookName = scanner.nextLine();
         searchBook(bookName);
 
     }
